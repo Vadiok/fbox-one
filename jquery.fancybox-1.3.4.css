@@ -15,6 +15,17 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 
+#fancybox-overlay,
+#fancybox-tmp,
+#fancybox-wrap,
+#fancybox-wrap div,
+#fancybox-wrap a,
+#fancybox-wrap img {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
 #fancybox-loading {
 	position: fixed;
 	top: 50%;
